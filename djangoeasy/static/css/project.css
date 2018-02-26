@@ -1,5 +1,12 @@
 /* These styles are generated from project.scss. */
+html, body {
+    height: 100%;
+    font-family: 'Trocchi';
+}
 
+.grey {
+  background-color: grey;
+}
 .alert-debug {
   color: black;
   background-color: white;
