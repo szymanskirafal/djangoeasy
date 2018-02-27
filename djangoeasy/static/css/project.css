@@ -4,9 +4,32 @@ html, body {
     font-family: 'Trocchi';
 }
 
+.green {
+  background-color: green;
+}
+
+.lightgreen {
+  background-color: lightgreen;
+}
+
+.blue {
+
+  background-color: blue;
+
+}
+
 .grey {
   background-color: grey;
 }
+
+.pink {
+  background-color: pink;
+}
+
+.shadow {
+  box-shadow: 4px 4px 4px black;
+}
+
 .alert-debug {
   color: black;
   background-color: white;

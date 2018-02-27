@@ -17,6 +17,9 @@ urlpatterns = [
     url(r'^accounts/', include('allauth.urls')),
 
     # Your stuff: custom urls includes go here
+    url(r'^tutorials/$', TemplateView.as_view(template_name='pages/tutorials.html'), name='tutorials'),
+    url(r'^tutorials/octopus$', TemplateView.as_view(template_name='pages/octopus.html'), name='octopus'),
+
 
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
